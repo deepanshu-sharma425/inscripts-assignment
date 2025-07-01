@@ -1,7 +1,7 @@
 import React from "react";
 import { ChevronsRight } from "lucide-react";
 
-// Image imports
+
 import img9 from ".././assets/filter.png";
 import img10 from ".././assets/eyeclosed.png";
 import img11 from ".././assets/cell.png";
@@ -11,7 +11,7 @@ import img2 from ".././assets/upload.png";
 import img3 from ".././assets/sort.png";
 import img4 from ".././assets/newac.png";
 
-// ✅ Updated type to React.ReactNode to avoid JSX.Element error
+
 interface ActionItem {
   icon: React.ReactNode;
   label: string;
@@ -33,7 +33,7 @@ const Actionn: React.FC = () => {
 
   return (
     <div className="flex items-center gap-2 px-2 py-2 w-full bg-white border-b border-gray-200">
-      {/* Toolbar Toggle Button */}
+
       <button
         className="flex items-center gap-1 p-2 rounded hover:bg-gray-100 transition-colors duration-200 group"
         onMouseEnter={(e) => e.currentTarget.classList.add("bg-gray-100", "shadow-sm")}
@@ -45,7 +45,7 @@ const Actionn: React.FC = () => {
 
       <div className="h-6 w-px bg-gray-200" />
 
-      {/* Toolbar Actions */}
+
       <div className="flex font-light gap-1 flex-1">
         {toolbarActions.map((action, index) => (
           <button
@@ -78,7 +78,7 @@ const Actionn: React.FC = () => {
         ))}
       </div>
 
-      {/* Right Side Actions */}
+
       <div className="flex font-extralight items-center gap-2">
         {rightActions.map((action, index) => (
           <button
@@ -102,7 +102,7 @@ const Actionn: React.FC = () => {
           </button>
         ))}
 
-        {/* New Action Button */}
+
         <button
           className="flex items-center gap-2 px-4 py-2 bg-green-900 text-white rounded hover:bg-green-800 transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
           onMouseEnter={(e) => e.currentTarget.classList.add("shadow-lg")}

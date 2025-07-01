@@ -10,26 +10,26 @@ import img7 from '.././assets/number.png';
 const Navbar: React.FC = () => {
   return (
     <div className="h-[52px] px-[16px] py-[8px] flex justify-between border-b border-gray-200">
-      {/* Left Side */}
+
       <div className="flex gap-[16px] justify-center items-center">
         <div className="p-2 hover:bg-gray-100 rounded-full transition-colors duration-200 cursor-pointer">
           <img className="w-[19px] h-[15px]" src={img1} alt="Logo Icon" />
         </div>
 
         <div className="flex gap-[6px]">
-          {/* Workspace */}
+
           <div className="flex text-gray-600 hover:text-gray-900 gap-[8px] justify-center items-center group cursor-pointer">
             <p className="text-[14px] group-hover:underline">Workspace</p>
             <img className="h-3 w-2 transition-transform group-hover:translate-x-0.5" src={img2} alt="Arrow" />
           </div>
 
-          {/* Folder 2 */}
+
           <div className="flex gap-[8px] text-gray-600 hover:text-gray-900 justify-center items-center group cursor-pointer">
             <p className="text-[14px] group-hover:underline">Folder 2</p>
             <img className="h-3 w-2 transition-transform group-hover:translate-x-0.5" src={img2} alt="Arrow" />
           </div>
 
-          {/* Spreadsheet 3 */}
+
           <div className="flex gap-[8px] justify-center items-center group cursor-pointer">
             <p className="text-[14px] text-gray-900 group-hover:underline">Spreadsheet 3</p>
             <div className="p-1 hover:bg-gray-100 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
@@ -39,9 +39,9 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Right Side */}
+  
       <div className="flex gap-3 justify-center items-center">
-        {/* Search */}
+
         <div className="flex mt-1 items-center gap-2 w-[185px] h-10 bg-gray-100 hover:bg-gray-200 pl-3 pr-2 rounded-md transition-colors duration-200 focus-within:bg-white focus-within:ring-2 focus-within:ring-blue-500">
           <img className="size-4 opacity-60" src={img4} alt="Search Icon" />
           <input
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
           />
         </div>
 
-        {/* Notification */}
+
         <div className="relative inline-block p-2 hover:bg-gray-100 rounded-full cursor-pointer transition-colors duration-200">
           <img className="size-[20px]" src={img6} alt="Notification Bell" />
           <img
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
           />
         </div>
 
-        {/* Profile */}
+
         <div className="flex gap-[8px] justify-center items-center p-1 pr-2 hover:bg-gray-100 rounded-full cursor-pointer transition-colors duration-200">
           <img src={img5} className="size-10 hover:opacity-90 transition-opacity" alt="User Profile" />
           <div>
