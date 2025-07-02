@@ -12,6 +12,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "@tanstack/react-table": "^8.21.3",
+    "ag-grid-community": "^34.0.0",
+    "ag-grid-react": "^34.0.0",
     "lucide": "^0.525.0",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
