@@ -18,7 +18,7 @@ const DataTableSection = () => {
         <div className="w-[630px] h-[32px] flex items-center bg-gray-200">
           <div className="bg-gray-50 w-[180px] rounded h-6 flex gap-1 my-1 justify-center items-center mx-[6px] px-2 hover:bg-gray-100 transition-colors duration-200 cursor-pointer">
             <img className="size-5 hover:opacity-80 transition-opacity" src={img2} alt="Link" />
-            <p className="w-[130] text-gray-500 text-[13px] font-light hover:text-gray-800 transition-colors">Q3 Financial Overview</p>
+            <p className="w-[130] text-gray-500 text-[12px] font-light hover:text-gray-800 transition-colors">Q3 Financial Overview</p>
           </div>
           <div className="p-1 hover:bg-gray-200 rounded cursor-pointer transition-colors">
             <img className="size-5 hover:scale-110 transition-transform" src={img1} alt="Refresh" />
