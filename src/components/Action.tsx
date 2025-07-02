@@ -32,7 +32,7 @@ const Actionn: React.FC = () => {
   ];
 
   return (
-    <div className="flex items-center gap-2 px-2 py-2 w-full bg-white border-b border-gray-200">
+    <div className="flex  items-center gap-2 px-2 py-2 w-full bg-white border-b border-gray-200">
 
       <button
         className="flex items-center gap-1 p-2 rounded hover:bg-gray-100 transition-colors duration-200 group"
