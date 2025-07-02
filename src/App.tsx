@@ -4,6 +4,7 @@ import Navbar from './components/header'
 import Actionn from './components/Action'
 import DataTableSection from './components/Spreadsheet'
 import Spreadheetgoogle from './components/Spreadheetgoogle'
+import Footer from './components/footer'
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <Actionn/>
     <DataTableSection/>
     <Spreadheetgoogle/>
+    <Footer/>
     
 
     </>

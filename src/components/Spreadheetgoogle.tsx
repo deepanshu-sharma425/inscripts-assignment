@@ -161,7 +161,7 @@ const Spreadheetgoogle = () => {
   };
 
   return (
-    <div className="">
+    <div className="flex  flex-col ">
       {/* Header row */}
       <div className="flex border-t border-l border-gray-50">
         <div className="bg-gray-100 h-[32px] w-[32px] flex justify-center items-center border-b border-r border-gray-50 hover:bg-gray-200 transition-colors duration-200">
@@ -323,7 +323,7 @@ const Spreadheetgoogle = () => {
           </div>
 
           <div className={`h-[25px] w-[127px] px-1 flex justify-between items-center border-b border-r  border-gray-50 `}>
-            <p className={`text-[12px] rounded px-[8px] ml-4 font-light ${getStatusStyle(row.status)}`}>{row.status}</p>
+            <p className={`text-[12px] rounded-xl px-[8px] ml-4 font-light ${getStatusStyle(row.status)}`}>{row.status}</p>
           </div>
 
           <div className="h-[25px] w-[127px] px-1 flex justify-between items-center border-b border-r border-gray-50 ">
