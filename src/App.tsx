@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './components/header'
 import Actionn from './components/Action'
 import DataTableSection from './components/Spreadsheet'
+import Spreadheetgoogle from './components/Spreadheetgoogle'
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
     <Navbar/>
     <Actionn/>
     <DataTableSection/>
+    <Spreadheetgoogle/>
     
 
     </>
